@@ -1,16 +1,9 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
-
 const nextConfig = {
   reactStrictMode: true,
-  output: 'export',
-  basePath: isProd ? '/Online-Supermarket' : '',
-  assetPrefix: isProd ? '/Online-Supermarket/' : '',
   images: {
-    unoptimized: true,
+    unoptimized: true, // si usás next/image y no querés optimización serverless
   },
-};
+}
 
-module.exports = nextConfig;
-
-
+module.exports = nextConfig
