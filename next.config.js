@@ -5,6 +5,9 @@ const nextConfig = {
   reactStrictMode: true,
   basePath: isProd ? '/Online-Supermarket' : '',
   assetPrefix: isProd ? '/Online-Supermarket/' : '',
+  images: {
+    unoptimized: true,
+  },
 }
 
 module.exports = nextConfig
