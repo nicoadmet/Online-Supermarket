@@ -89,9 +89,9 @@ setContadorCarrito(cartCount)
      
       
       <Product>
-        {products.map((product) =>(
-          <Card data={product} addToCart={addToCart} />
-        ))}         
+        {products.map((product) => (
+          <Card key={product.id} data={product} addToCart={addToCart} />
+        ))}
       </Product>
 
       <style jsx>{`
