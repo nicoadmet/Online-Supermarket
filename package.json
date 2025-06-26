@@ -10,6 +10,7 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "homepage": "https://nicoadmet.github.io/Online-Supermarket",
   "dependencies": {
     "bootstrap": "^5.3.1",
     "eslint": "8.45.0",
